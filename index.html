@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Chicago time Panchangam (Pilot for Anil Ji)</title>
+  <title>Portland, OR - USA - Pacific Time Chaandramaanam Panchangam</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     body {
@@ -22,7 +22,7 @@
       margin-bottom: 1rem;
     }
 
-    /* Guru Image */
+    /* Elegant Guru Image */
     .header img {
       width: 180px;
       height: auto;
@@ -44,11 +44,12 @@
       color: #333;
     }
 
-    .subtitle {
-      font-size: 1.1rem;
+    .sanskrit {
+      font-size: 1.15rem;
       margin-top: 0.3rem;
       color: #7a5c15;
       font-weight: 600;
+      font-family: "Noto Sans Devanagari", serif;
     }
 
     /* Gold divider */
@@ -70,12 +71,12 @@
       text-shadow: 0 0 6px rgba(212, 175, 55, 0.35);
     }
 
-    /* Backend timestamp – above footer line */
+    /* Backend timestamp – now displayed above footer */
     .backend-time-line {
       text-align: center;
-      font-size: 0.8rem;
+      font-size: 0.8rem;   /* smaller */
       font-style: italic;
-      color: #b00020;   /* red */
+      color: #b00020;      /* red */
       margin: 0.6rem 0 0.4rem 0;
     }
 
@@ -166,8 +167,9 @@
     <img src="guru.png" alt="Guru Image" />
 
     <div class="header-title">
-      <h1>Chicago time Panchangam</h1>
-      <div class="subtitle">(Pilot for Anil Ji)</div>
+      <h1>Portland, OR - USA - Pacific Time</h1>
+      <h1>Chaandramaanam Panchangam</h1>
+      <!-- <div class="sanskrit">चन्द्रमान पञ्चाङ्गम्</div> -->
     </div>
   </div>
 
@@ -247,19 +249,18 @@
 
   </div> <!-- /content -->
 
-  <!-- Backend Panchangam time stamp (converted to local time) -->
+  <!-- Backend Panchangam time stamp (now above footer line) -->
   <div id="backend-time" class="backend-time-line"></div>
 
   <!-- Footer -->
   <div class="footer">
     Acknowledgments<br />
-    <strong>Shri Ashok Krishnamoorthy</strong>
+    <strong>Shri Ashok Krishnamoorthy, Portland, OR - USA</strong>
     <br /><br />
     Contact:<br />
     <strong>a.krishnamoorthy@comcast.net</strong>
   </div>
 
-  <!-- NOTE: JS file is named data.js for this repo -->
-  <script src="data.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
